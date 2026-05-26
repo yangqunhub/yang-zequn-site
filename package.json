@@ -1,17 +1,19 @@
 {
-  "name": "yang-zequn-site",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
+  "姓名": "杨泽群遗址",
+  "版本": "1.0.0",
+  "私人的": "真的",
+  "脚本": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion",
+    "start": "next start",
+    "preview": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && opennextjs-cloudflare deploy"
   },
-  "dependencies": {
-    "gray-matter": "^4.0.3",
+  "依赖关系": {
+    "灰质": "^4.0.3",
     "lucide-react": "^0.378.0",
-    "next": "^14.2.0",
-    "react": "^18.3.0",
+    "下一个": "^14.2.0",
+    "反应": "^18.3.0",
     "react-dom": "^18.3.0",
     "react-markdown": "^9.0.0",
     "remark-gfm": "^4.0.0"
@@ -20,7 +22,7 @@
     "@types/node": "^20.12.0",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
-    "autoprefixer": "^10.4.20",
+    "自动前缀": "^2020年10月4日",
     "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.6",
     "postcss": "^8.4.38",
