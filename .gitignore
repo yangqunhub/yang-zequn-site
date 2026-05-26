@@ -34,6 +34,9 @@ yarn-error.log*
 # edgeone
 .edgeone/.token
 
+# env
+.env
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
